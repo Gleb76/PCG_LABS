@@ -1,0 +1,12 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "notebook_dir": "/Users/glebklyga",
+  "password": false,
+  "pid": 1097,
+  "port": 8888,
+  "secure": false,
+  "sock": "",
+  "token": "30f4c005ab22acc4d791e9aa4fd4abaf6ff46dd8427bf630",
+  "url": "http://localhost:8888/"
+}
