@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QMainWindow" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="selectModel">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>80</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>RGB &lt;-&gt; LAB &lt;-&gt; CMYK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RGB &lt;-&gt; CMYK &lt;-&gt; HLS</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RGB &lt;-&gt; XYZ &lt;-&gt; LAB</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RGB &lt;-&gt; HSV &lt;-&gt; LAB</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CMYK &lt;-&gt; LAB &lt;-&gt; HSV</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CMYK &lt;-&gt; RGB &lt;-&gt; HLS</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CMYK &lt;-&gt; RGB &lt;-&gt; HSV</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RGB &lt;-&gt; XYZ &lt;-&gt; HSV</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HSV &lt;-&gt; XYZ &lt;-&gt; LAB</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CMYK &lt;-&gt; LAB &lt;-&gt; RGB</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>XYZ &lt;-&gt; LAB &lt;-&gt; HLS</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RGB &lt;-&gt; XYZ &lt;-&gt; HLS</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RGB &lt;-&gt; XYZ &lt;-&gt; CMYK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CMYK &lt;-&gt; LAB &lt;-&gt; XYZ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RGB &lt;-&gt; CMYK &lt;-&gt; HSV</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CMYK &lt;-&gt; HLS &lt;-&gt; XYZ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RGB &lt;-&gt; HLS &lt;-&gt; LAB</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CMYK &lt;-&gt; XYZ &lt;-&gt; RGB</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="chooseColorButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>360</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Выбрать цвет</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="colorShowcase">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>180</y>
+      <width>221</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+  </widget>
+   <widget class="QMenuBar" name="menubar">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
